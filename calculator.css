@@ -1,0 +1,41 @@
+#main{
+	width:289px;
+/*	height: 500px;*/
+     height: 500px;
+     /*float: left;*/
+	border: 5px solid black;
+	/*position: relative;*/
+	margin: 0, auto;
+}
+.div,.other{
+	width: 50px;
+	height: 50px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;/*上下左右间距8*/
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor:pointer ;/*光标的指针为手型*/
+}
+.div{
+	width: 50px;
+}
+.other{
+	width: 270px;
+	
+}
+#first{/*这里由于first之前已经定义过了，只需要重新定义不一样的就好不会被覆盖掉
+	/*这里的first定义了id的属性所以应该用#*/
+	/*main.firstChild.setAttribute("id","first");//这里设置属性为id 方便后面显示的时候获取这里的值 属性名为first*/
+	/*这里定义的属性为id 所以定义css属性的时候需要用. 而不是用#
+	#号对应id
+点号对应class
+不加对应html 标签*/
+	
+	text-align: right;
+
+	
+}
